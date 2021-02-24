@@ -8,9 +8,9 @@ for i in range(1, ticket+1):
         s += 990
     elif age >= 25:
         s += 1390
+print("Сумма заказа: ", s)
 if ticket > 3:
-    s = s*0.9
-print('Сумма к оплате: ', s)
+    print('Сумма со скидкой: ', s*0.9)
 
 
 
